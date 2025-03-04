@@ -1,0 +1,93 @@
+.button button{
+    font-family:Verdana;
+    background-color: rgb(255, 203, 212);
+    color:saddlebrown;
+    border:none;
+    border-radius: 6px;
+    box-shadow: 2px 3px 10px rgb(255, 248, 166);
+    text-align:center;
+    font-size:1.5em;
+    padding: 10px 10px;
+    cursor:pointer;
+    transition:background-color 0.25s;
+    margin: 0 3px;
+
+}
+#counter{
+    display:block;
+    text-align:center;
+    font-size:10em;
+    color: saddlebrown;
+}
+.button{
+    text-align:center;
+
+}
+.button button:hover{
+    background-color: rgb(255, 227, 232);
+    box-shadow: 2px 3px 20px rgb(255, 248, 166);
+
+}
+
+#h1R{
+    text-align:center;
+    color:rgb(255, 248, 166);
+    text-shadow:2px 3px 10px pink;
+    background-color: saddlebrown;
+}
+.contR{
+    text-align:center;
+}
+
+#buttonR{
+    background-color:rgb(255, 248, 166);
+    box-shadow:2px 3px 10px pink;
+    border:none;
+    font-size:1.1em;
+}
+#buttonR:hover{
+    background-color:rgb(255, 252, 223);
+    cursor:pointer;
+}
+
+#numberR{
+    font-size:7em;
+    color:pink;
+}
+
+#Thead{
+    color:rgb(55, 20, 20);
+    text-align: center;
+}
+#t{
+    text-shadow: 2px 3px 20px rgb(252, 134, 240);;
+    color:rgb(55, 20, 20);
+
+}
+.temprCon{
+    text-align:center;
+    background-color:rgb(253, 255, 240);
+    padding: 1.4%;
+    margin-left:39%;
+    margin-right:39%;
+    border-radius: 20%;
+    box-shadow: 2px 4px 20px rgb(55, 20, 20);
+
+}
+#tempr{
+    font-size:1em;
+    text-align:center;
+    width: 40%;
+}
+#buttConv{
+    background-color: rgb(255, 236, 239);
+    color:rgb(55, 20, 20);
+    font-size:1.1em;
+    border-color:rgb(0, 0, 0);
+    border-radius: 10%;
+    box-shadow: 6px 3px 16px rgb(253, 255, 129);
+}
+#buttConv:hover{
+    box-shadow: 6px 3px 16px rgb(255, 157, 245);
+    cursor:pointer;
+}
