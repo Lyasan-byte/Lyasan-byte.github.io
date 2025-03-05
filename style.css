@@ -91,3 +91,67 @@
     box-shadow: 6px 3px 16px rgb(255, 157, 245);
     cursor:pointer;
 }
+
+
+
+
+
+#h1R{
+    text-align: center;
+    
+}
+#container{
+    text-align:center;
+    font-size:1.5em;
+    background-color: red;
+    color:white;
+}
+#numSelect{
+    font-size:1.4em;
+    width:20%;
+}
+#rol{
+    font-size:1em;
+    margin:3%;
+    border-radius:6%;
+    border:none;
+    box-shadow: 5px 6px 30px white;
+    background-color: black;
+    color:wheat;
+}
+#rol:hover{
+    background-color: rgb(62, 62, 62);
+    cursor:pointer;
+}
+#h1Dice::before{
+    content:"🎲 ";
+    font-size: 0.6em;
+    transform: rotate(-15deg); 
+    display:inline-block; 
+    vertical-align:middle; 
+    transition: transform 0.7s ease;
+}
+#h1Dice::after{
+    content:"🎲 ";
+    font-size: 0.6em;
+    transform: rotate(15deg); 
+    display:inline-block; 
+    vertical-align:middle; 
+    transition: transform 0.7s ease;
+}
+#h1Dice:hover::before{
+    transform: rotate(30deg);    
+}
+#h1Dice:hover::after{
+    transform: rotate(-30deg);    
+}
+#diceNum{
+    font-family:Cambria;
+}
+#diceImg img{
+    margin:5px;
+    width:150px;  
+}
+#diceImg{
+    background-color: white;
+}

@@ -47,3 +47,23 @@ document.getElementById("buttConv").onclick = function(){
         window.alert("Enter a number");
     }   
 }
+
+
+
+
+
+function rollDice(){
+    const numOfDice = document.getElementById("numSelect").value;
+    const resDice = document.getElementById("resDice");
+    const diceImg = document.getElementById("diceImg");
+    let values = [];
+    let img = [];
+
+    for (let i = 0; i < numOfDice; i++) {
+        const value = Math.trunc(Math.random() * 6) + 1;
+        values.push(value);
+        img.push(`<img src="img/${value}.jpg" alt="dice ${value}">`);
+    }
+    resDice.textContent = `dice: ${values.join(", ")}`;
+    diceImg.innerHTML = img.join("");
+}
